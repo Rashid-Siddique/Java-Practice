@@ -1,0 +1,20 @@
+package oop;
+
+public class VaccinationSuccessful extends Vaccine{
+
+	public VaccinationSuccessful(int age, String nationality) {
+		super(age, nationality);
+	}
+	
+
+	@Override
+	public void boosterDose() {
+		System.out.println("Booster Dose Successfully Taken");
+		
+	}
+	
+	
+	
+	
+
+}
